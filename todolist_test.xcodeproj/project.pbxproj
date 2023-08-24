@@ -13,9 +13,6 @@
 		CB52A8BD2A7B85A400A440C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB52A8BB2A7B85A400A440C9 /* Main.storyboard */; };
 		CB52A8BF2A7B85A500A440C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB52A8BE2A7B85A500A440C9 /* Assets.xcassets */; };
 		CB52A8C22A7B85A500A440C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB52A8C02A7B85A500A440C9 /* LaunchScreen.storyboard */; };
-		CB52A8CD2A7B85A500A440C9 /* todolist_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB52A8CC2A7B85A500A440C9 /* todolist_testTests.swift */; };
-		CB52A8D72A7B85A500A440C9 /* todolist_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB52A8D62A7B85A500A440C9 /* todolist_testUITests.swift */; };
-		CB52A8D92A7B85A500A440C9 /* todolist_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB52A8D82A7B85A500A440C9 /* todolist_testUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +42,7 @@
 		CB52A8C12A7B85A500A440C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB52A8C32A7B85A500A440C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB52A8C82A7B85A500A440C9 /* todolist_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todolist_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB52A8CC2A7B85A500A440C9 /* todolist_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todolist_testTests.swift; sourceTree = "<group>"; };
 		CB52A8D22A7B85A500A440C9 /* todolist_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todolist_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB52A8D62A7B85A500A440C9 /* todolist_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todolist_testUITests.swift; sourceTree = "<group>"; };
-		CB52A8D82A7B85A500A440C9 /* todolist_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todolist_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				CB52A8B42A7B85A400A440C9 /* todolist_test */,
-				CB52A8CB2A7B85A500A440C9 /* todolist_testTests */,
-				CB52A8D52A7B85A500A440C9 /* todolist_testUITests */,
 				CB52A8B32A7B85A400A440C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				CB52A8C32A7B85A500A440C9 /* Info.plist */,
 			);
 			path = todolist_test;
-			sourceTree = "<group>";
-		};
-		CB52A8CB2A7B85A500A440C9 /* todolist_testTests */ = {
-			isa = PBXGroup;
-			children = (
-				CB52A8CC2A7B85A500A440C9 /* todolist_testTests.swift */,
-			);
-			path = todolist_testTests;
-			sourceTree = "<group>";
-		};
-		CB52A8D52A7B85A500A440C9 /* todolist_testUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CB52A8D62A7B85A500A440C9 /* todolist_testUITests.swift */,
-				CB52A8D82A7B85A500A440C9 /* todolist_testUITestsLaunchTests.swift */,
-			);
-			path = todolist_testUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB52A8CD2A7B85A500A440C9 /* todolist_testTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB52A8D92A7B85A500A440C9 /* todolist_testUITestsLaunchTests.swift in Sources */,
-				CB52A8D72A7B85A500A440C9 /* todolist_testUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
